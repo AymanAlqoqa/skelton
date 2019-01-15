@@ -1,0 +1,27 @@
+{
+  "name": "skelton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dom.js",
+  "dependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.2"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5"
+  },
+  "scripts": {
+    "test": "node test.js | tap-spec",
+    "cover": "istanbul cover tape ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AymanAlqoqa/skelton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AymanAlqoqa/skelton/issues"
+  },
+  "homepage": "https://github.com/AymanAlqoqa/skelton#readme"
+}
