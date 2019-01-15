@@ -102,4 +102,3 @@ if (typeof module !== 'undefined') {
     module.exports = todoFunctions;
 }
 
-todoFunctions.addTodo([{ id: 1, description: 'tototoot', done: false }], 'Ayman');
